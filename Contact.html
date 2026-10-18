@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Amber Khan</title>
+    <link rel="stylesheet" href="project1.css">
+    <script src="script.js" defer></script>
+    </head>
+
+        <body>
+            <header class="site-header">
+            <h1>Contact</h1>
+
+            <nav class="site-nav" aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="aboutme.html">About Me</a>
+            <a href="contact.html" aria-current="page">Contact</a>
+            <a href="references.html">References</a>
+            </nav>
+            </header>
+
+            <main>
+                <section class="content-card">
+                    <h2>Get in Touch</h2>
+
+                    <p>
+                    Have a question about the website?
+                    You can send me an email.
+                    </p>
+
+                    <p>
+                    <a id="contact-email-link" href="#contact-form">
+                    Contact me by email
+                    </a>
+                    </p>
+
+                    <p>
+                    <strong>Location:</strong>
+                    Rochester Institute of Technology (RIT)
+                    </p>
+
+                    <form id="contact-form">
+                    <div class="form-field">
+                    <label for="visitor-name">Your Name</label>
+                    <input
+                    id="visitor-name"
+                    name="name"
+                    type="text"
+                    autocomplete="name"
+                    required
+                    >
+                    </div>
+
+                    <div class="form-field">
+                    <label for="visitor-email">Your Email</label>
+                    <input
+                    id="visitor-email"
+                    name="email"
+                    type="email"
+                    autocomplete="email"
+                    required
+                    >
+                    </div>
+
+                    <div class="form-field">
+                    <label for="visitor-message">Message</label>
+                    <textarea
+                    id="visitor-message"
+                    name="message"
+                    required
+                    ></textarea>
+                    </div>
+
+                    <div class="form-actions">
+                    <button type="submit">Prepare Email</button>
+                    <button type="reset">Clear</button>
+                    </div>
+
+                    <p class="form-note">
+                    This form opens an email draft in your email app.
+                    Review the email and press Send there.
+                    </p>
+                    </form>
+                </section>
+            </main>
+
+        <footer class="site-footer">
+        <p>&copy; 2026 Amber Khan</p>
+        </footer>
+        </body>
+</html>
